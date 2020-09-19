@@ -1,0 +1,138 @@
+.navbar, .footer {
+  color: grey;
+  background-color:whitesmoke;
+  
+}
+
+.parallax{
+/* Set a specific height */
+min-height:375px; 
+width:100%;
+}
+
+.pic1 {
+    /* The image used */
+    background-image: url("../images/computer1.jpeg");
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    opacity: 0.8;
+  }
+  #me{
+    font-size:45px;
+    text-align: justify;
+    color:whitesmoke;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #welcome{
+    font-size:30px;
+    text-align: justify;
+    color:whitesmoke;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+  .content{
+      position: relative;
+      height:100%;
+      background-color:rgb(0, 0, 0);
+      font-size:16px;
+      text-align: justify;
+      color: whitesmoke;
+      
+  }
+  p{
+    line-height: 200%;
+  }
+h5{
+  background-color: rgb(212,175,55);;
+}
+.quote{
+  text-align: center;
+  color: rgb(212,175,55);
+
+}
+.progress-bar-animated{
+  color:blue;
+}
+  
+  .myTitle{
+    color: rgb(212,175,55);
+      text-align: center;
+      margin-top: 10%;
+      margin-bottom: 22px;
+      background-color: rgb(0, 0, 0);
+  }
+  .pic2 {
+    /* The image used */
+    background-image: url("../images/computer2.jpeg");
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .pic3 {
+    /* The image used */
+    background-image: url("../images/computer3.jpeg");
+    
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* .progress{
+    background-color:rgb(240, 21, 21);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  } */
+
+ 
+  span{
+    text-align: left;
+    text-decoration: bold;
+    color: rgb(255, 255, 255);
+  }
+
+  /* Contact form */
+  .myInfo{
+    text-align: center;
+    line-height: 150%;
+  }
+  .form-control, .btn{
+    background-color: transparent;
+    border-radius: 0;
+  }
+  .form-group{
+    margin: 0 25%;
+  }
+  .btn{
+    color:blue;
+    background-color: transparent;
+    border-color: whitesmoke;
+    margin: 15px 41%;
+    font-weight: bold;
+    width: 18%;
+  }
+  .btn:hover{
+    color: rgb(212,175,55);
+    color: whitesmoke;
+    font-size: 18px;
+  }
+  .container-fluid{
+    background-color: black;
+  }
+
+ 
